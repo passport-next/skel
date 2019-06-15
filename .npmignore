@@ -1,0 +1,10 @@
+CONTRIBUTING.md
+Makefile
+examples/
+reports/
+test/
+.github/
+.travis.yml
+.gitlab-ci.yml
+.eslintrc.js
+.eslintignore
