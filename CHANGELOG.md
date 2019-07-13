@@ -1,18 +1,26 @@
 This changelog follows Semantic Versioning https://semver.org/
 
+# 1.0.4 (2019-07-13)
+
+### Patch
+
+* Replaced make-node with nyc and coveralls in npm scripts @rwky
+
 # 1.0.3 (2019-06-18)
 
-* Updated .github templates
+### Patch
+
+* Updated .github templates @rwky
 
 # 1.0.2 (2019-06-18)
 
 ### Patch
 
-* Removed comma-dangle config since it's included in the config
-* Updated .npmignore and .gitignore
-* Removed licenses in favour of licence from package.json
+* Removed comma-dangle config since it's included in the config @rwky
+* Updated .npmignore and .gitignore @rwky
+* Removed licenses in favour of licence from package.json @Rwky
 * Cleaned up lint commands
-* Removed deprecated test-cov and view-cov commands (TODO replace these)
+* Removed deprecated test-cov and view-cov commands (TODO replace these) @rwky
 
 # 1.0.1 (2019-06-15)
 
