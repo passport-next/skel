@@ -1,5 +1,12 @@
 This changelog follows Semantic Versioning https://semver.org/
 
+# 2.0.0 (2019-07-24)
+
+### Major
+
+* Updated npm deps, breaking changes from @passport-next/eslint-config-passport-next causing
+lint errors in some JSDoc cases @rwky
+
 # 1.0.4 (2019-07-13)
 
 ### Patch
