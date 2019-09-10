@@ -1,5 +1,17 @@
 This changelog follows Semantic Versioning https://semver.org/
 
+# 3.0.0
+
+### Major
+
+* Removed coverage script
+
+### Minor
+
+* Replaced test script with coverage script
+* Added in --reporter=text to coverage
+* Added testonly script
+
 # 2.0.1
 
 ### Patch

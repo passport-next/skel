@@ -1,6 +1,6 @@
 {
     "name": "@passport-next/skel",
-    "version": "2.0.1",
+    "version": "3.0.0",
     "description": "Passport next project skeleton",
     "author": {
         "name": "Passport Next Developers",
@@ -60,8 +60,8 @@
         "init-new-project": "node ./templates/gen --init",
         "lint": "eslint --max-warnings 0 --ext js,md .",
         "lintfix": "eslint --ext js,md . --fix",
-        "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js",
-        "coverage": "nyc --report-dir=var/coverage --reporter=lcov npm test",
+        "testonly": "mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js",
+        "test": "nyc --report-dir=var/coverage --reporter=lcov --reporter=text npm run testonly",
         "coveralls": "nyc report --report-dir=var/coverage --reporter=text-lcov | coveralls"
     }
 }
