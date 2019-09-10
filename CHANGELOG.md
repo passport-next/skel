@@ -1,5 +1,12 @@
 This changelog follows Semantic Versioning https://semver.org/
 
+# 2.0.1
+
+### Patch
+
+* Updated npm deps
+* Added missing coveralls and coverage scripts
+
 # 2.0.0 (2019-07-24)
 
 ### Major
