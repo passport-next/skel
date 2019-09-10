@@ -62,5 +62,7 @@
         "lint": "eslint --max-warnings 0 --ext js,md .",
         "lintfix": "eslint --ext js,md . --fix",
         "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js",
+        "coverage": "nyc --report-dir=var/coverage --reporter=lcov npm test",
+        "coveralls": "nyc report --report-dir=var/coverage --reporter=text-lcov | coveralls"
     }
 }
